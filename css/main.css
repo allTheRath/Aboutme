@@ -84,11 +84,11 @@ html, body {
 }
 
 .circle{
-    padding-top: 22px;
-    margin: 6px;
     box-sizing: border-box;
-    border-radius: 40%;
-    height: 15vh;
+    border-radius: 76%;
+    width: 130px !important;
+    height: 24vh;
+    max-width: none;
 }
 
 .setheight{
