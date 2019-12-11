@@ -86,7 +86,6 @@ html, body {
 .circle{
     box-sizing: border-box;
     border-radius: 76%;
-    width: 130px !important;
     height: 24vh;
     max-width: none;
 }
