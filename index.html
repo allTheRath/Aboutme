@@ -551,6 +551,11 @@
                         var contactEmail = document.querySelector("#contactEmail");
                         var contactSubject = document.querySelector("#contactSubject");
                         var contactMessage = document.querySelector("#contactMessage");
+                        console.log("name",contactName.value);
+                        console.log("email",contactEmail.value);
+                        console.log("name",contactSubject.value);
+                        console.log("name",contactMessage.value);
+                        
                         var link = "mailto:pateljayh2012@gmail.com?subject="+contactSubject.nodeValue+";body="+contactMessage.nodeValue;
                         var ele = document.querySelector(".attach");
                         ele.insertAdjacentHTML("afterbegin",`<a href=`+link+` id="emaiL" />`);
