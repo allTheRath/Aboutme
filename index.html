@@ -556,7 +556,7 @@
                         console.log("name",contactSubject.value);
                         console.log("name",contactMessage.value);
                         
-                        var link = "mailto:pateljayh2012@gmail.com?subject="+contactSubject.nodeValue+";body="+contactMessage.nodeValue;
+                        var link = "mailto:pateljayh2012@gmail.com?subject="+contactSubject.value+";body="+contactMessage.value;
                         var ele = document.querySelector(".attach");
                         ele.insertAdjacentHTML("afterbegin",`<a href=`+link+` id="emaiL" />`);
                         setTimeout(function(){ SendMail();},1000);
