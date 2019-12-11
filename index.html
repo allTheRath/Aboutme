@@ -551,7 +551,7 @@
                         var contactEmail = document.querySelector("#contactEmail");
                         var contactSubject = document.querySelector("#contactSubject");
                         var contactMessage = document.querySelector("#contactMessage");                     
-                        var link = "mailto:pateljayh2012@gmail.com?Subject="+contactName.value+" : "+contactSubject.value+"&amp;Body="+contactMessage.value;
+                        var link = encodeURI("mailto:pateljayh2012@gmail.com?Subject="+contactName.value+" : "+contactSubject.value+"&Body="+contactMessage.value);
                         var ele = document.querySelector(".attach");
                         ele.insertAdjacentHTML("afterbegin",`<a href=`+link+` id="emaiL" />`);
                         setTimeout(function(){ SendMail();},1000);
